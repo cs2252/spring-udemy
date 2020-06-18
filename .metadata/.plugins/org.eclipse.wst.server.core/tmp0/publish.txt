@@ -1,0 +1,6 @@
+#Tomcat publish data
+#Thu Jun 18 13:08:42 IST 2020
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\chand\\.m2\\repository\\org\\apache\\tomcat\\tomcat-jasper\\9.0.36\\tomcat-jasper-9.0.36.jar=WEB-INF/lib/tomcat-jasper-9.0.36.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\chand\\.m2\\repository\\org\\apache\\tomcat\\tomcat-websocket\\9.0.36\\tomcat-websocket-9.0.36.jar=WEB-INF/lib/tomcat-websocket-9.0.36.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\chand\\.m2\\repository\\org\\springframework\\spring-web\\5.2.5.RELEASE\\spring-web-5.2.5.RELEASE.jar=WEB-INF/lib/spring-web-5.2.5.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\chand\\.m2\\repository\\org\\apache\\tomcat\\tomcat-jasper-el\\9.0.36\\tomcat-jasper-el-9.0.36.jar=WEB-INF/lib/tomcat-jasper-el-9.0.36.jar

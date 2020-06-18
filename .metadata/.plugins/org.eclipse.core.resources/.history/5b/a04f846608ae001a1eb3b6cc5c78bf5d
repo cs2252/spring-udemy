@@ -1,0 +1,12 @@
+package com.telusko.DemoRest;
+@Path("Aliens")
+public class AlienResource {
+	
+	public Alien getAlien()
+	{
+		Alien a1 = new Alien();
+		a1.setName("chanadn");
+		a1.setPoint(99);
+	}
+
+}

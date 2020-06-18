@@ -1,0 +1,17 @@
+package annotations;
+
+public class TenisCoach implements Coach {
+
+	@Override
+	public String getDailyWorkout() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getDailyFoutune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

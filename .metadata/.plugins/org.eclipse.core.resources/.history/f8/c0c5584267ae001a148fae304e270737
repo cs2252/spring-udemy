@@ -1,0 +1,24 @@
+package ioc;
+
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		//create object
+		BaseBallCoach coach = new Coach() {
+			
+			@Override
+			public String getDailyWorkout() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+		};();
+		
+		
+		//use object
+		System.out.println(coach.getDailyWorkout());
+	}
+
+}

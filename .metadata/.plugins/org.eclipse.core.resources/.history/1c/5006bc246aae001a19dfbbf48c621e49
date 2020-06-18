@@ -1,0 +1,17 @@
+package ioc;
+
+public class HelloSpringApp {
+
+	public static void main(String[] args) {
+
+		//load spring configuration file
+		
+		//retrive spring bean
+		
+		//use bean 
+		
+		
+		//close context
+	}
+
+}

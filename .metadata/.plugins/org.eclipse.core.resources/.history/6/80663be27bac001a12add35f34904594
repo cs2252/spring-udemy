@@ -1,0 +1,10 @@
+package com.telusko.DemoHib;
+
+public class AlienName {
+	
+	private String fName;
+	private String mName;
+	private String lName;
+
+	
+}

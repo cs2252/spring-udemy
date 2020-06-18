@@ -1,0 +1,33 @@
+package ioc;
+
+public class CricketCoach implements Coach {
+	
+
+	private FortuneService fortuneService;
+	
+
+	public CricketCoach() {
+	System.out.println("inside default constructor of CricketCoach");
+	}
+
+	public FortuneService getFortuneService() {
+		return fortuneService;
+	}
+
+	public void setFortuneService(FortuneService fortuneService) {
+		this.fortuneService = fortuneService;
+	}
+
+	@Override
+	public String getDailyWorkout() {
+		
+		return "practice fast bowling 15 mins each day"; 
+	}
+
+	@Override
+	public String getDailyFoutune() {
+		
+		return fortuneService.getFortune();	
+	}
+
+}

@@ -1,0 +1,39 @@
+package com.telusko.DemoHib;
+import org.hibernate.Session;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import mapping.Laptop;
+import mapping.Student;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	Laptop l=new Laptop();
+    	l.setLid(1);
+    	l.setLname("dell");
+    	
+    	Student s=new Student();
+    	s.setSid(101);
+    	s.setSname("chandan");
+    	s.setMarks(99);
+    	s.getLaptop().add(l);
+    	
+    
+        
+      try {
+    	 
+      }catch(Exception ex)
+      {
+    	  System.out.println(ex.getMessage());
+      }
+        
+    }
+}

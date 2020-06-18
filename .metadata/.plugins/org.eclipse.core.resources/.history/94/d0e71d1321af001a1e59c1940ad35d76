@@ -1,0 +1,24 @@
+package annotations;
+
+public class SiwmCoach implements Coach {
+	
+	private FortuneService fortuneService;
+
+	public SiwmCoach(FortuneService fortuneService) {
+		super();
+		this.fortuneService = fortuneService;
+	}
+
+	@Override
+	public String getDailyWorkout() {
+		
+		return "swim 1000 meters as a warm up.";
+	}
+
+	@Override
+	public String getDailyFoutune() {
+		
+		return fortuneService.getFortune();
+	}
+
+}

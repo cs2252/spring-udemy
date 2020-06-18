@@ -1,0 +1,17 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+	<bean id="myfortune" class="ioc.HappyFortuneService"></bean>
+	<bean id="myCoach" class="ioc.BaseBallCoach">
+		<constructor-arg ref="myfortune"/>
+	</bean>
+	<bean id="myCricketCoach" class="ioc.CricketCoach">
+	  <property name="fortuneService" ref="myfortune"/>
+	  <property name="team" value="sunrisers Hyderabad" />
+	  <property name="email" value="mrcs2252@gmail.com"/>
+	</bean>
+</beans>

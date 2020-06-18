@@ -1,0 +1,18 @@
+package report;
+
+import org.springframework.stereotype.Component;
+
+@Component(value="pdfGenerator")
+public class PDFReportGenerator implements ReportGenerator {
+
+	@Override
+	public String generateReport(int recordsPerPage) {
+		// TODO Auto-generated method stub
+		 if(recordsPerPage <=0) {
+			 	System.out.println("throwing an exception");
+	            throw new ArithmeticException("No records to update");
+	        }
+		return "Generated Report in PDF with"+recordsPerPage+"  record";
+	}
+
+}

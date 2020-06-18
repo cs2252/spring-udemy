@@ -1,0 +1,11 @@
+package report;
+
+public class PDFReportGenerator implements ReportGenerator {
+
+	@Override
+	public String generateReport(int recordsPerPage) {
+		// TODO Auto-generated method stub
+		return "Generated Report in PDF with"+recordsPerPage+"  record";
+	}
+
+}

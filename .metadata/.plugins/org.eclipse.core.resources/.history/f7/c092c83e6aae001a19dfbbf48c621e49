@@ -1,0 +1,17 @@
+package ioc;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+public class HelloSpringApp {
+
+	public static void main(String[] args) {
+
+		//load spring configuration file
+		ClassPathXmlApplicationContext name = new ClassPathXmlApplicationContext("ApplicationContext.xml");
+		//retrive spring bean
+		
+		//use bean 
+		
+		
+		//close context
+	}
+
+}

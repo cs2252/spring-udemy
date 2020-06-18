@@ -1,0 +1,35 @@
+package annotations;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class TenisCoach implements Coach {
+
+	private FortuneService fortuneService;
+	public TenisCoach()
+	{
+		System.out.println("inside the default constructor of FortuneService");
+	}
+	@Autowired
+	public TenisCoach(FortuneService fortuneService) {
+		System.out.println("TenisCoach constructor called");
+		
+		this.fortuneService = fortuneService;
+	}
+	
+	@Override
+	public String getDailyWorkout() {
+		// TODO Auto-generated method stub
+		return "some random workout";
+	}
+
+	
+
+	@Override
+	public String getDailyFoutune() {
+		// TODO Auto-generated method stub
+		return fortuneService.getFortune();
+	}
+
+}

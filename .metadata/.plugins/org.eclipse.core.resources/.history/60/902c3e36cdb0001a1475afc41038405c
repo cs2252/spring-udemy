@@ -1,0 +1,14 @@
+package com.luv2code.springdemo.mvc;
+
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@RequestMapping("/customer")
+public class CustomerController {
+    @RequestMapping("/showForm")
+	public String showFomr(Model themodel)
+	{
+		
+		return "customer-form";
+	}
+}

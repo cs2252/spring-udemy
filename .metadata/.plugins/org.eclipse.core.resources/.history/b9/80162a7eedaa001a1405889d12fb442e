@@ -1,0 +1,45 @@
+package report;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+@Service
+public class ReportService {
+	@Autowired(required=false)
+	@Qualifier("htmlGenerator")
+	ReportGenerator reportGenerator;
+	@Value("100")
+	int recordsPerPage;
+	
+	public ReportService() {
+		System.out.println("inside default constructor");
+	}
+	
+	public ReportService(ReportGenerator reportGenerator,int recordsPerPage)
+	{
+		this.reportGenerator=reportGenerator;
+		this.recordsPerPage=recordsPerPage;
+		System.out.println("inside the Perametrized constructor");
+	}
+	public int getRecordsPerPage() {
+		return recordsPerPage;
+	}
+	public void setRecordsPerPage(int recordPerPage) {
+		System.out.println("inside setRecordPerPage");
+		this.recordsPerPage = recordPerPage;
+	}
+	public ReportGenerator getreportGenerator() {
+		return reportGenerator;
+	}
+	
+	public void setreportGenerator(ReportGenerator reportGenerator) {
+		System.out.println("inside setreportGenerator method");
+		this.reportGenerator = reportGenerator;
+	}
+	public void generateReport() {
+		System.out.println(reportGenerator.generateReport(recordsPerPage));
+	}
+	
+
+}
