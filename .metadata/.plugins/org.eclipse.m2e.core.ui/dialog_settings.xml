@@ -72,12 +72,14 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="HibernateTutorial"/>
 			<item value="spirngDemoAnnotation"/>
 			<item value="HibernateDemo"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="HibernateTutorial"/>
 			<item value="spirngDemoAnnotation"/>
 			<item value="HibernateDemo"/>
 		</list>
