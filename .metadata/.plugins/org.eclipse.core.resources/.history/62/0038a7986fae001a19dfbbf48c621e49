@@ -1,7 +1,0 @@
-package ioc;
-
-public interface FoutuneService {
-	
-	String getFortune();
-
-}
