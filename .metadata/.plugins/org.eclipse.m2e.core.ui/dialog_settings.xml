@@ -29,15 +29,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.telusko.DemoRest"/>
-			<item value="com.telusko.DemoHib"/>
 		</list>
 		<list key="groupId">
-			<item value="com.telusko"/>
 		</list>
 		<list key="artifactId">
-			<item value="DemoRest"/>
-			<item value="DemoHib"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -72,6 +67,7 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="spring-rest-demo"/>
 			<item value="HibernateTutorial"/>
 			<item value="spirngDemoAnnotation"/>
 			<item value="HibernateDemo"/>
@@ -79,6 +75,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="spring-rest-demo"/>
 			<item value="HibernateTutorial"/>
 			<item value="spirngDemoAnnotation"/>
 			<item value="HibernateDemo"/>
