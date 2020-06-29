@@ -1,7 +1,0 @@
-package Annotations;
-
-public interface Coach {
-	String getDailyWorkout();
-	String getDailyFoutune();
-
-}
