@@ -9,7 +9,7 @@ public class Testjdbc {
 		
 		
 		String jdbcUrl="jdbc:mysql://localhost:3306/neon?allowPublicKeyRetrieval=true&useSSL=false";
-		String user="admin";
+		String user="root";
 		String password="admin";
 		try {
 			System.out.println("connecting to database: "+jdbcUrl);

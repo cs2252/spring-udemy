@@ -75,6 +75,8 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="web-customer-tracker"/>
+			<item value="solution-code-spring-mvc-CRUD-CRM-list-customers"/>
 			<item value="spring-rest-demo"/>
 			<item value="HibernateTutorial"/>
 			<item value="spirngDemoAnnotation"/>
@@ -83,6 +85,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="web-customer-tracker"/>
+			<item value="solution-code-spring-mvc-CRUD-CRM-list-customers"/>
 			<item value="spring-rest-demo"/>
 			<item value="HibernateTutorial"/>
 			<item value="spirngDemoAnnotation"/>
@@ -100,6 +104,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\F\workspace\java\spring-mvc-demo"/>
 			<item value="C:\F\cources\spring_udemy\70. Spring Boot - Overview\mycoolapp"/>
 			<item value="C:\F\cources\spring_udemy\70. Spring Boot - Overview\mycoolapp1"/>
 		</list>

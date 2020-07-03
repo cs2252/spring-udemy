@@ -24,6 +24,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\F\cources\spring_udemy\29. Build a Database Web App - Spring MVC and Hibernate Project - Part 2\solution-code-spring-mvc-CRUD-CRM-list-customers"/>
 			<item value="C:\F\cources\spring_udemy\58. Spring REST - Create a Spring REST Controller\solution-code-spring-rest-demo-hello-world"/>
 		</list>
 	</section>
