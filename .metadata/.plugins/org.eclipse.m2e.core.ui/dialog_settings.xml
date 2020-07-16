@@ -104,6 +104,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\F\cources\spring_udemy\47. Spring Security - Getting Started\spring-security-demo-starter"/>
 			<item value="C:\F\workspace\java\spring-mvc-demo"/>
 			<item value="C:\F\cources\spring_udemy\70. Spring Boot - Overview\mycoolapp"/>
 			<item value="C:\F\cources\spring_udemy\70. Spring Boot - Overview\mycoolapp1"/>
