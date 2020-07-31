@@ -104,6 +104,14 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\chand\Desktop\AgileIntPPMTool\PPMToolFullStack"/>
+			<item value="C:\Users\chand\Desktop\AgileIntPPMTool"/>
+			<item value="C:\F\workspace\java\spring-security-demo-08-jdbc-plaintext"/>
+			<item value="C:\F\cources\spring_udemy\69. Spring REST - Bonus Lectures\crm-web-app-rest-client-demo"/>
+			<item value="C:\F\cources\spring_udemy\58. Spring REST - Create a Spring REST Controller\solution-code-spring-rest-demo-hello-world"/>
+			<item value="C:\Users\chand\Documents\mycoolapp"/>
+			<item value="C:\F\cources\spring_udemy\63. Spring REST - CRUD Database Real-Time Project - Overview\spring-crm-rest-demo"/>
+			<item value="C:\F\workspace\java\DemoRest"/>
 			<item value="C:\F\cources\spring_udemy\47. Spring Security - Getting Started\spring-security-demo-starter"/>
 			<item value="C:\F\workspace\java\spring-mvc-demo"/>
 			<item value="C:\F\cources\spring_udemy\70. Spring Boot - Overview\mycoolapp"/>

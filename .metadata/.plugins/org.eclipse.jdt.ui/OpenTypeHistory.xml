@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=web-customer-tracker/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.luv2code.springdemo.dao{CustomerDao.java[CustomerDao" modifiers="513" timestamp="1593611799227"/>
+<typeInfo handle="=22-jpa-cruddemo/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.luv2code.springboot.cruddemo.dao{EmployeeDAO.java[EmployeeDAO" modifiers="513" timestamp="1596091927146"/>
+<typeInfo handle="=23-spring-data-jpa-cruddemo/C:\/Users\/chand\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.3.2.RELEASE\/spring-data-jpa-2.3.2.RELEASE.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/2.3.2.RELEASE=/=/maven.scope=/compile=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1595659907200"/>
 </typeInfoHistroy>
